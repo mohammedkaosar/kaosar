@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>List of Publications of Kaosar</title>
+		<link rel="stylesheet" type="text/css" href="cvCSS.css"/>
+		<script src="dataScript.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">				
+				<h2>List of Publications of Kaosar</h2>
+			</div>
+			<div id="content">				
+				<div id="main">	
+					<h3>PUBLICATIONS</h3>
+					<script>document.write(getJournalPapers())</script>
+					</br>
+					<script>document.write(getBookChapters())</script>
+					</br>
+					<script>document.write(getConferencePapers())</script>
+					</br></br>					
+				</div>
+			</div>
+			<div id="footer">
+				Copyright &copy 2019 Kaosar
+			</div>
+		</div>
+	</body>
+</html>

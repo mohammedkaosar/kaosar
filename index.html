@@ -1,7 +1,132 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World -- Kaosar </h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+	<head>
+		<title>Kaosar's Home Page</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<script src="dataScript.js"></script>
+		<script>
+		function menuSelection(x){
+			if(x===1){
+				//document.getElementById("articleTitle").innerHTML="Home";
+				document.getElementById("main").innerHTML=getHome();
+				}
+			if(x===2){
+				//document.getElementById("articleTitle").innerHTML="Research Interests";
+				document.getElementById("main").innerHTML=getResearchInterest();
+				}
+			if(x===3)//teaching interest
+				document.getElementById("main").innerHTML=getTeachingInterests();
+			if(x===4)//teaching Activity
+				document.getElementById("main").innerHTML=getTeachingActivities();
+			if(x===5)//research Activity
+				document.getElementById("main").innerHTML=getResearchActivities();
+			if(x===6)//current research Activity
+				document.getElementById("main").innerHTML=getCurrentResearch();
+			if(x===7)//Journal papers
+				document.getElementById("main").innerHTML=getJournalPapers();
+			if(x===8)//Book chapter
+				document.getElementById("main").innerHTML=getBookChapters();
+			if(x===9)//Conference papers
+				document.getElementById("main").innerHTML=getConferencePapers();
+			if(x===10)//Academic Qualification
+				document.getElementById("main").innerHTML=getAcademicQualification();
+			if(x===11)//Professional Trainings
+				document.getElementById("main").innerHTML=getProfessionalCertifications();
+			if(x===12)//All publications
+			{
+				document.getElementById("main").innerHTML=getJournalPapers();
+				document.getElementById("main").innerHTML+="</br>"+getBookChapters();
+				document.getElementById("main").innerHTML+="</br>"+getConferencePapers();
+			}
+			if(x===13)//Community Services
+				document.getElementById("main").innerHTML=getCommunityServices();
+		}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<img src="Golam Kaosar.jpg" alt="Kaosar" style="width:780px;height:180px;">
+				
+			</div>
+<div id="menu">
+			<ul>
+				<li class="dropdown">
+						<a href="javascript:void(0)" onclick="menuSelection(1)" class="dropbtn">Home</a>
+						<div class="dropdown-content">
+							<a href="#" onclick="menuSelection(10)">Academic Qualifications</a>
+							<a href="#" onclick="menuSelection(11)">Professional Trainings</a>					  
+						</div>
+					</li>
+				
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn">Teaching</a>
+					<div class="dropdown-content">
+					  <a href="#" onclick="menuSelection(3)">Teaching Preference</a>
+					  <a href="#" onclick="menuSelection(4)">Teaching Experience</a>					  
+					</div>
+				</li>
+
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn">Research</a>
+					<div class="dropdown-content">					  
+					  <a href="#" onclick="menuSelection(2)">Research Interests</a>
+					  <a href="#" onclick="menuSelection(6)">Current Research</a>
+					  <a href="#" onclick="menuSelection(5)">Past Research Projects</a>					  
+					</div>
+				</li>
+
+				<li class="dropdown">
+					<a href="javascript:void(0)" onclick="menuSelection(12)" class="dropbtn">Publications</a>
+					<div class="dropdown-content">
+					  <a href="#" onclick="menuSelection(12)">All</a>
+					  <a href="#" onclick="menuSelection(7)">Journals</a>		
+					  <a href="#" onclick="menuSelection(8)">Book Chapters</a>
+					  <a href="#" onclick="menuSelection(9)">Conferences</a>			  
+					</div>
+				</li>
+
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn">CVs</a>
+					<div class="dropdown-content">
+					  <a href="#" onclick="window.location.href='cv.html'" target="_blank">Short CV</a>
+					  <a href="#">Full CV</a>		
+					  			  
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn">Others</a>
+					<div class="dropdown-content">
+					  <a href="#" onclick="menuSelection(13)">Community Services</a>				  
+					  			  
+					</div>
+				</li>
+				
+				
+			
+				
+</ul>
+</div>
+			  
+			<div id="content">
+				<!--<div id="nav">
+					<h3>Options<h3>
+					<button onclick="menuSelection(1)">Home</button>
+					<button onclick="menuSelection(2)">Research Interests</button>
+					<button onclick="window.location.href='cv.html'">CV</button>
+					<ul>
+						<li><a class="selected" href="" onclick="menuSelection(2)">Home</li>
+						<li><a href="">About</li>
+						<li><a href="">Contact</li>
+					</ul>
+				</div>-->
+				<div id="main">
+								
+					<script>document.write(getHome())</script>				
+				</div>
+			</div>
+			<div id="footer">
+				Copyright &copy 2017 Kaosar
+			</div>
+		</div>
+	</body>
 </html>
