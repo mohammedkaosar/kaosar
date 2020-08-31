@@ -1,7 +1,7 @@
 function getHome(){
 	var finalStr="";
 	var str=[];
-	str[0]="<h3>Home Page</h3></br>Dr. Mohammed Golam Kaosar is currently working as an Assistant Professor in the Department of Computer Science in Effat University, Saudi Arabia. Prior to that, he used to work as a Lecturer in the School of Computing and Mathematics, Charles Sturt University, Australia. He also worked as a Research  Fellow  after  his completion  of  PhD  from  the  School  of  Engineering  and  Science, Victoria  University  Melbourne,  Australia.  Prior  to  that,  Mr. Kaosar  finished  his  MS  in  Computer  Engineering  and   BSc  in Computer  Science  and  Engineering in 2006 and 2001. Previously,  he  used  to  work  in  the  Research  institute  (RI), KFUPM,  KSA.  Mr. Kaosar is member of various professional organizations including IEEE, EAI etc. He is also a dedicated reviewer, member and editor of various conferences and journals.";
+	str[0]="<h3>Home Page</h3></br>Dr. Kaosar is currently working as a Senior Lecturer in the School of Engineering and Information Technology, Murdoch University. Prior to that he has worked in several universities including RMIT Univerisyt, Victoria University, Effat University and Charles Sturt University.  Dr. Kaosar has worked in number of national and international research projects. He has published more than fifty research papers in reputable journals and conferences including - IEEE Transaction on Knowledge and Data Engineering (TKDE), Data and Knowledge Engineering (DKE), IEEE International Conference on Data Engineering (ICDE), Computer Communication (ComCom).";
 	str[1]="";
 	finalStr=str[0]+str[1];
 	return finalStr;
@@ -495,7 +495,7 @@ function getJournalPapers(){
 	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"A review on various Smart Grid Technologies used in Power System\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
 	str[c++]="K. M. Haroon, H. Sharif, M. Kaosar, H. Javed, \"A Review on Different Algorithms and Methods used for Neural Spike Detection\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
 	str[c++]="M. Qiangqiang, N. Hasan, M. Rahman,R. Roslynna,N. Saeid, M. Kaosar, M. Mohiuddin, \"Relationship between GSD and porosity\", Journal of Granular Computing, 2020,[Submitted]";
-	
+	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"Protection of Interconnected Transmission Network using Phasor Measurement Unit Scheme\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
 			
 	finalStr=str[0]+str[1];
 	var n=str.length;
