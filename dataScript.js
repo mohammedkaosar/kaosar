@@ -493,9 +493,11 @@ function getJournalPapers(){
 	str[c++]="C. Trang, R. Ahmed, M. Kaosar, \"Liquid Water Film on the Outer Surface of a Half-Submerged Rotating Drum\", Journal of Plastic Film & Sheeting, February, 2019";	
 	str[c++]="M. Kaosar, X. Yi, \"Privacy Preserving Participatory Sensor Network on Named Data Networking Infrastructure\", International Journal of Wireless & Mobile Networks (IJWMN), Vol. 12, No. 1, Pages 1-12 January 2020";
 	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"A review on various Smart Grid Technologies used in Power System\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
+	str[c++]="M. Magomelo, M. Kaosar, \"An Exploratory Model to Empirically Test the Impact of Organisational Values and Culture on Information Security\", Journal of Human-Computer Interaction, 2020, [Submitted]";
 	str[c++]="K. M. Haroon, H. Sharif, M. Kaosar, H. Javed, \"A Review on Different Algorithms and Methods used for Neural Spike Detection\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
 	str[c++]="M. Qiangqiang, N. Hasan, M. Rahman,R. Roslynna,N. Saeid, M. Kaosar, M. Mohiuddin, \"Relationship between GSD and porosity\", Journal of Granular Computing, 2020,[Submitted]";
 	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"Protection of Interconnected Transmission Network using Phasor Measurement Unit Scheme\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
+	
 			
 	finalStr=str[0]+str[1];
 	var n=str.length;
