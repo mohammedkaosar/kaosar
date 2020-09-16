@@ -494,6 +494,7 @@ function getJournalPapers(){
 	str[c++]="M. Kaosar, X. Yi, \"Privacy Preserving Participatory Sensor Network on Named Data Networking Infrastructure\", International Journal of Wireless & Mobile Networks (IJWMN), Vol. 12, No. 1, Pages 1-12 January 2020";
 	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"A review on various Smart Grid Technologies used in Power System\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
 	str[c++]="M. Magomelo, M. Kaosar, \"An Exploratory Model to Empirically Test the Impact of Organisational Values and Culture on Information Security\", Journal of Human-Computer Interaction, 2020, [Submitted]";
+	str[c++]="M. Patwary, M. Kaosar, \"Predicting COVID-19 affected people and area using dynamic graph link prediction\", Journal of Human-Computer Interaction, 2020, [Submitted]";
 	str[c++]="K. M. Haroon, H. Sharif, M. Kaosar, H. Javed, \"A Review on Different Algorithms and Methods used for Neural Spike Detection\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
 	str[c++]="M. Qiangqiang, N. Hasan, M. Rahman,R. Roslynna,N. Saeid, M. Kaosar, M. Mohiuddin, \"Relationship between GSD and porosity\", Journal of Granular Computing, 2020,[Submitted]";
 	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"Protection of Interconnected Transmission Network using Phasor Measurement Unit Scheme\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
@@ -561,6 +562,7 @@ function getConferencePapers(){
 	str[c++]="Q. Mamun, M. Kaosar, \"What is the First Step in Designing an Application Protocol for Wireless Sensor Networks	(WSNs)?\", IEEE Sensors Applications Symposium (SAS) 2014, February 1820, 2014, Queenstown, New Zealand";
 	str[c++]="Shaimaa AlBugami, Baraa Arif, Mohammed Kaosar, \"Shaping and Regulating Privacy Statements to Increase	Customer Satisfaction\", Customer Service in the Public Sector Conference, The Saudi Ministry of Civil Service, 17-19 Nov 2015";
 	str[c++]="Afnan Waseem Alhamid, Khulud Abdullah Al-Khaldi, Mohammed Kaosar, \"Smart home base safe playground for kids\", Playground Conference KSU, Ryadh, KSA, 2015.";
+	str[c++]="T. Chimeura, M. Kaosar, \"User Identity Preservation and Data Protection  in the Internet of Things\", Proceedings of the 2nd African International Conference on Industrial Engineering and Operations Management Harare, Zimbabwe, December 8-10, 2020 [submitted]";
 	//str[c++]="M Kaosar\"Oblivious DaaS type Cloud using Binary Search Tree\" Research and Innovation Forum April 15-17, 2020, Athens [Accepted]";
 	//str[c++]="M Kaosar, X Yi \"Medical Data Management using Block-Chain\" Research and Innovation Forum April 15-17, 2020, Athens [Accepted]";
 	//str[c++]="Mohammed Kaosar, \"Smart Vending Machines for Smart Community\" [Accepted].";
