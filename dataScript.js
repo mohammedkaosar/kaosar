@@ -1,7 +1,7 @@
 function getHome(){
 	var finalStr="";
 	var str=[];
-	str[0]="<h3>Home Page</h3></br>Dr. Kaosar is currently working as a Senior Lecturer in the School of Engineering and Information Technology, Murdoch University. Prior to that he has worked in several universities including RMIT Univerisyt, Victoria University, Effat University and Charles Sturt University.  Dr. Kaosar has worked in number of national and international research projects. He has published more than fifty research papers in reputable journals and conferences including - IEEE Transaction on Knowledge and Data Engineering (TKDE), Data and Knowledge Engineering (DKE), IEEE International Conference on Data Engineering (ICDE), Computer Communication (ComCom).";
+	str[0]="<h3>Home Page</h3></br>Dr. Kaosar is currently working as a Senior Lecturer in the Discipline of Information Technology, Murdoch University Australia. Prior to that he has worked in several universities including RMIT University, Victoria University, Effat University and Charles Sturt University.  Dr. Kaosar has worked in number of national and international research projects and grants. He has published number of research papers in reputable journals and conferences including - IEEE Transaction on Knowledge and Data Engineering (TKDE), Data and Knowledge Engineering (DKE), IEEE International Conference on Data Engineering (ICDE), Computer Communication (ComCom). He has been supervising many postgraduate students, mentoring junior colleagues, and collaborating with many national and international researchers. Dr. Kaosar is an active member of various professional organizations including - IEEE, Australian Computer Society (ACS), European Alliance for Innovation (EAI), The Institute for Computer Sciences, Social Informatics and Telecommunications Engineering (ICST), South Pacific Competitive Programming Association, Industrial Engineering and Operation Management(IEOM). Dr. Kaosar is involved in arranging various events such as programming contests, conferences and workshops.";
 	str[1]="";
 	finalStr=str[0]+str[1];
 	return finalStr;
@@ -199,12 +199,13 @@ function getWorkExperience(){
 	str[12]="<b>Position - Assistant Professor</b><li style=\"margin-left:20px; \">University -  Department of Computer Science Effat University, Saudi Arabia</br><li style=\"margin-left:20px; \">Duration - July 2014 - July 2019</br><li style=\"margin-left:20px; \">Responsibility - Subjects Taught - Human Computer Interface, Algorithm Analysis, Data Structure and Algorithm Design, Digital Skill, Information Security,  Research Seminar Programming Languages( Java C++), Software Engineering etc.</br><li style=\"margin-left:20px; \">Others - Department and college committees, Research committee, Mentoring programming clubs, Coaching students for programming ompetitions etc.";
 	str[13]="<b>Position - Research Fellow</b><li style=\"margin-left:20px; \">University -  Computer Science and Software Engineering Department, RMIT University, Australia</br><li style=\"margin-left:20px; \">Duration - August 2019 - Current</br><li style=\"margin-left:20px; \">Responsibility - ARC Discovery project";
 		*/
-	//str[c++]="<b>Before PhD</b>(2001-2008)<li style=\"margin-left:20px; \">Arab Open University, KSA</br><li style=\"margin-left:20px; \">Research Institute, KFUPM, KSA </br><li style=\"margin-left:20px; \">Asian University, Bangladesh</br><li style=\"margin-left:20px; \">People's University, Bangladesh</br><li style=\"margin-left:20px; \">Queens University, Bangladesh</br><li style=\"margin-left:20px; \">Beximco Computers, Bangladesh";
+	str[c++]="<b>Before PhD</b>(2001-2008)<li style=\"margin-left:20px; \">Arab Open University, KSA</br><li style=\"margin-left:20px; \">Research Institute, KFUPM, KSA </br><li style=\"margin-left:20px; \">Asian University, Bangladesh</br><li style=\"margin-left:20px; \">People's University, Bangladesh</br><li style=\"margin-left:20px; \">Queens University, Bangladesh</br><li style=\"margin-left:20px; \">Beximco Computers, Bangladesh";
 	str[c++]="<b>Position - Sessional Instructor</b><li style=\"margin-left:20px; \">University -  School of Engineering and Science, Victoria University, Australia</br><li style=\"margin-left:20px; \">Duration - 2009-2011(During PhD) </br><li style=\"margin-left:20px; \">Responsibility - Teaching - undergraduate sessional courses e.g.- Engineering Mathematics 1A, Network Security etc., performing various grading, lecturing.";
 	str[c++]="<b>Position - Research Fellow</b><li style=\"margin-left:20px; \">University -  School of Engineering and Science, Victoria University, Australia</br><li style=\"margin-left:20px; \">Duration - 2011-2012</br><li style=\"margin-left:20px; \">Responsibility - Conducting research in two ARC (Australian Research Council) projects, namely (1) \Private Data Warehouse Query\ and (2) Privacy Protection in Distributed Data Mining";
 	str[c++]="<b>Position - Lecturer </b> </br><li style=\"margin-left:20px; \">University -  School of Computing and Mathematics, Charles Sturt University, Australia</br><li style=\"margin-left:20px; \">Duration - Jan 2013- July 2014</br><li style=\"margin-left:20px; \">Responsibility - Teaching undergraduate and graduate courses, supervising PhD students, conducting research in various priority areas, coordinating courses, performing various administrative tasks etc.";
 	str[c++]="<b>Position - Assistant Professor</b> <li style=\"margin-left:20px; \">University -  Department of Computer Science Effat University, Saudi Arabia</br><li style=\"margin-left:20px; \">Duration - July 2014 - July 2019</br><li style=\"margin-left:20px; \">Responsibility - Teaching and supervising undergraduate students, Conducting research in various priority areas, serving as the secretary general of Computer Science Department, coordinating courses, coaching students for programming contests, performing various administrative duties etc.";
-	str[c++]="<b>Position - Research Fellow and Online Instructor</b><li style=\"margin-left:20px; \">University -  Computer Science and Software Engineering Department, RMIT University, Australia</br><li style=\"margin-left:20px; \">Duration - August 2019 - Current</br><li style=\"margin-left:20px; \">Responsibility - Teaching and coordinating ICT courses (e.g. Programming Principle, Web Design etc.), performing research (Australian Research Council project 'Private search in streaming data'), supervising PhD and honors students, writing grant applications";
+	str[c++]="<b>Position - Research Fellow and Online Instructor</b><li style=\"margin-left:20px; \">University -  Computer Science and Software Engineering Department, RMIT University, Australia</br><li style=\"margin-left:20px; \">Duration - August 2019 - June 2020</br><li style=\"margin-left:20px; \">Responsibility - Teaching and coordinating ICT courses (e.g. Programming Principle, Web Design etc.), performing research (Australian Research Council project 'Private search in streaming data'), supervising PhD and honors students, writing grant applications";
+	str[c++]="<b>Position - Senior Lecturer</b><li style=\"margin-left:20px; \">University -  Discipline of Information Technology, Murdoch University, Australia</br><li style=\"margin-left:20px; \">Duration - 2020 - Current";
 		
 	finalStr=str[0]+str[1];
 	var n=c;//str.length;
@@ -222,14 +223,14 @@ function getProfessionalAffiliation(){
 	var c=2;
 	str[0]="<h3>PROFESSIONAL AFFILIATIONS AND COMMUNITY ACTIVITIES</h3></br>";
 	str[1]="";	
-	str[c++]="Member: IEEE, Australian Computer Society (ACS), European Alliance for Innovation (EAI), The Institute for Computer Sciences, Social Informatics and Telecommunications Engineering (ICST)";
+	str[c++]="Member: IEEE, Australian Computer Society (ACS), European Alliance for Innovation (EAI), The Institute for Computer Sciences, Social Informatics and Telecommunications Engineering (ICST), South Pacific Competitive Programming Association, Industrial Engineering and Operation Management(IEOM)";
 	//str[c++]="Member, Centre for Research in Complex Systems (CRICS), Charles Sturt University, Australia";
 	//str[c++]="Member, ICT Security Group, Charles Sturt University, Australia";
 	//str[c++]="Member, Advanced Network Research Lab (ANRL) Group, Charles Sturt University, Australia";
 	str[c++]="Editorial Board Member: International Journal in Foundations of Computer Science and Technology (IJFCST)";
-	str[c++]="Program committee: Learning and Teaching Conference, Effat University, 2015-2019; International Workshop on Applications and Techniques in Information Security (ATIS), 2013";
+	str[c++]="Program Committee: AIACT 2021 Shanghai China, Learning and Teaching Conference, Effat University, 2015-2019; International Workshop on Applications and Techniques in Information Security (ATIS), 2013";
 	str[c++]="Reviewer: ATIS2013, NSS2013, SCI 2005, SCI 2006, Journal of KSU-CIS, Journal of Biomedical Informatics, Journal of Computers (JCP) etc.";
-	str[c++]="Organizer: Various ACM-Compliant programming contests including She-Codes-2019 in KSA";	
+	str[c++]="Organizer:  Effat L&T Conference (2015-2019), Various ACM-Compliant programming contests including She-Codes-2019 in KSA";	
 			
 	finalStr=str[0]+str[1];
 	var n=str.length;
@@ -261,6 +262,7 @@ function getCSUAchievement(){
 	}
 	return finalStr;
 }
+
 function getProfessionalCertifications(){
 	var finalStr="";
 	var str=[];
@@ -490,14 +492,16 @@ function getJournalPapers(){
 	str[c++]="Abdulatif, M. Kaosar, \"Privacy Preserving Cloud Computation using Domingo Ferrer Scheme\" Journal of King Saud University Computer and Information Sciences Volume 28, Issue 1, January 2016, Pages 27-36";
 	str[c++]="Adel Binajjaj, Tarek Sheltami, Farouq Aliyu, Mohammed Kaosar, \"Design and Implementation of a Wearable Gas Sensor Network for Oil and Gas Industry Workers\" Journal of Computers Volume 13, Number 3, March 2018, Pages 300-308, doi: 10.17706/jcp.13.3.300-308";	
 	str[c++]="Shaima Albugami, Baraa Arief, Mohammed Kaosar, \"Privacy Statement Regulating Based on User Preferences Using Document Mining\" International Journal of Security, Privacy and Trust Management ( IJSPTM), April 2018";
-	str[c++]="C. Trang, R. Ahmed, M. Kaosar, \"Liquid Water Film on the Outer Surface of a Half-Submerged Rotating Drum\", Journal of Plastic Film & Sheeting, February, 2019";	
+	str[c++]="C. Trang, R. Ahmed, M. Kaosar, \"Liquid Water Film on the Outer Surface of a Half-Submerged Rotating Drum\", Journal of Plastic Film & Sheeting, February, 2019";		
+	str[c++]="H.Sharif, K. Haroon, Z. Paracha, M. Kaosar, H. Javed, \"Identification of Low Frequency Oscillation Disturbance with the Help of Phasor Measurement Unit\", Journal of Solid State Technology, Vol.63, No.1, 2020";	
 	str[c++]="M. Kaosar, X. Yi, \"Privacy Preserving Participatory Sensor Network on Named Data Networking Infrastructure\", International Journal of Wireless & Mobile Networks (IJWMN), Vol. 12, No. 1, Pages 1-12 January 2020";
 	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"A review on various Smart Grid Technologies used in Power System\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
-	str[c++]="M. Magomelo, M. Kaosar, \"An Exploratory Model to Empirically Test the Impact of Organisational Values and Culture on Information Security\", Journal of Human-Computer Interaction, 2020, [Submitted]";
-	str[c++]="M. Patwary, M. Kaosar, \"Predicting COVID-19 affected people and area using dynamic graph link prediction\", Journal of Human-Computer Interaction, 2020, [Submitted]";
+	str[c++]="M. Magomelo, M. Kaosar, \"An Exploratory Model to Empirically Test the Impact of Organisational Values and Culture on Information Security\", Journal of Human-Computer Interaction, 2020, [Submitted]";	
 	str[c++]="K. M. Haroon, H. Sharif, M. Kaosar, H. Javed, \"A Review on Different Algorithms and Methods used for Neural Spike Detection\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
 	str[c++]="M. Qiangqiang, N. Hasan, M. Rahman,R. Roslynna,N. Saeid, M. Kaosar, M. Mohiuddin, \"Relationship between GSD and porosity\", Journal of Granular Computing, 2020,[Submitted]";
+	str[c++]="M. Patwary, M. Kaosar, \"Predicting COVID-19 affected people and area using dynamic graph link prediction\", Journal of Human-Computer Interaction, 2020, [Submitted]";
 	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"Protection of Interconnected Transmission Network using Phasor Measurement Unit Scheme\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
+	str[c++]="S. Hossain, M. Kaosar, \"Intellectual Property Theft in Precision Agriculture: Challenges and a Solution\", Journal of Human-Computer Interaction, 2020, [Submitted]";
 	
 			
 	finalStr=str[0]+str[1];
@@ -560,9 +564,10 @@ function getConferencePapers(){
 	str[c++]="K. Rabbi, R. Islam, Q. Mamun, M. Kaosar, \"MTTG - An Efficient Technique for Test Data Generation\", SKIMA2014, 18-20 December 2014, Dhaka, Bangladesh";
 	str[c++]="K. Rabbi, M. Kaosar R. Islam, Q. Mamun, \"A Secure Real Time Data Processing Framework for Personally	Controlled Electronic Health Record (PCEHR) System\", 10th International Conference on Security and Privacy in Communication Networks (SecureComm 1014), 2426 September, 2014, Beijing, China.";
 	str[c++]="Q. Mamun, M. Kaosar, \"What is the First Step in Designing an Application Protocol for Wireless Sensor Networks	(WSNs)?\", IEEE Sensors Applications Symposium (SAS) 2014, February 1820, 2014, Queenstown, New Zealand";
-	str[c++]="Shaimaa AlBugami, Baraa Arif, Mohammed Kaosar, \"Shaping and Regulating Privacy Statements to Increase	Customer Satisfaction\", Customer Service in the Public Sector Conference, The Saudi Ministry of Civil Service, 17-19 Nov 2015";
-	str[c++]="Afnan Waseem Alhamid, Khulud Abdullah Al-Khaldi, Mohammed Kaosar, \"Smart home base safe playground for kids\", Playground Conference KSU, Ryadh, KSA, 2015.";
-	str[c++]="T. Chimeura, M. Kaosar, \"User Identity Preservation and Data Protection  in the Internet of Things\", Proceedings of the 2nd African International Conference on Industrial Engineering and Operations Management Harare, Zimbabwe, December 8-10, 2020 [submitted]";
+	str[c++]="S. AlBugami, B. Arif, M. Kaosar, \"Shaping and Regulating Privacy Statements to Increase	Customer Satisfaction\", Customer Service in the Public Sector Conference, The Saudi Ministry of Civil Service, 17-19 Nov 2015";
+	str[c++]="A. Alhamid, K. Al-Khaldi, Mohammed Kaosar, \"Smart home base safe playground for kids\", Playground Conference KSU, Ryadh, KSA, 2015.";
+	str[c++]="T. Chimeura, M. Kaosar, \"User Identity Preservation and Data Protection  in the Internet of Things\", Proceedings of the 2nd African International Conference on Industrial Engineering and Operations Management Harare, Zimbabwe, December 8-10, 2020.";
+	str[c++]="M. Magomelo, M. Kaosar, \"Security and Privacy Preserving in Precision Agriculture\", Proceedings of the 2nd African International Conference on Industrial Engineering and Operations Management Harare, Zimbabwe, December 8-10, 2020.";
 	//str[c++]="M Kaosar\"Oblivious DaaS type Cloud using Binary Search Tree\" Research and Innovation Forum April 15-17, 2020, Athens [Accepted]";
 	//str[c++]="M Kaosar, X Yi \"Medical Data Management using Block-Chain\" Research and Innovation Forum April 15-17, 2020, Athens [Accepted]";
 	//str[c++]="Mohammed Kaosar, \"Smart Vending Machines for Smart Community\" [Accepted].";
