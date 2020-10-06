@@ -501,7 +501,7 @@ function getJournalPapers(){
 	str[c++]="M. Qiangqiang, N. Hasan, M. Rahman,R. Roslynna,N. Saeid, M. Kaosar, M. Mohiuddin, \"Relationship between GSD and porosity\", Journal of Granular Computing, 2020,[Submitted]";
 	str[c++]="M. Patwary, M. Kaosar, \"Predicting COVID-19 affected people and area using dynamic graph link prediction\", Journal of Human-Computer Interaction, 2020, [Submitted]";
 	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"Protection of Interconnected Transmission Network using Phasor Measurement Unit Scheme\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
-	str[c++]="S. Hossain, M. Kaosar, \"Intellectual Property Theft in Precision Agriculture: Challenges and a Solution\", Journal of Human-Computer Interaction, 2020, [Submitted]";
+	str[c++]="S. Hossain, M. Kaosar, \"Intellectual Capital Theft in Precision Agriculture: Challenges and a Solution\", Journal of Human-Computer Interaction, 2020,[Submitted]";
 	
 			
 	finalStr=str[0]+str[1];
