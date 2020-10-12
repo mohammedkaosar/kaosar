@@ -1,9 +1,10 @@
 function getHome(){
 	var finalStr="";
 	var str=[];
-	str[0]="<h3>Home Page</h3></br>Dr. Kaosar is currently working as a Senior Lecturer in the Discipline of IT, Media and Communications, Murdoch University Australia. Prior to that he has worked in several universities including RMIT University, Victoria University, Effat University and Charles Sturt University.  Dr. Kaosar has worked in number of national and international research projects and grants. He has published number of research papers in reputable journals and conferences including - IEEE Transaction on Knowledge and Data Engineering (TKDE), Data and Knowledge Engineering (DKE), IEEE International Conference on Data Engineering (ICDE), Computer Communication (ComCom). He has been supervising many postgraduate students, mentoring junior colleagues, and collaborating with many national and international researchers. Dr. Kaosar is an active member of various professional organizations including - IEEE, Australian Computer Society (ACS), European Alliance for Innovation (EAI), The Institute for Computer Sciences, Social Informatics and Telecommunications Engineering (ICST), South Pacific Competitive Programming Association, Industrial Engineering and Operation Management(IEOM). Dr. Kaosar is involved in arranging various events such as programming contests, conferences and workshops etc.";
-	str[1]="";
-	finalStr=str[0]+str[1];
+	str[0]="<h3>About Me</h3></br>Dr. Kaosar is currently working as a Senior Lecturer in the Discipline of IT, Media and Communications, Murdoch University Australia. Prior to that he has worked in several universities including RMIT University, Victoria University, Effat University and Charles Sturt University.  Dr. Kaosar has worked in number of national and international research projects and grants. He has published number of research papers in reputable journals and conferences including - IEEE Transaction on Knowledge and Data Engineering (TKDE), Data and Knowledge Engineering (DKE), IEEE International Conference on Data Engineering (ICDE), Computer Communication (ComCom). He has been supervising many postgraduate students, mentoring junior colleagues, and collaborating with many national and international researchers. Dr. Kaosar is an active member of various professional organizations including - IEEE, Australian Computer Society (ACS), European Alliance for Innovation (EAI), The Institute for Computer Sciences, Social Informatics and Telecommunications Engineering (ICST), South Pacific Competitive Programming Association, Industrial Engineering and Operation Management(IEOM). Dr. Kaosar is involved in arranging various events such as programming contests, conferences and workshops etc.</br></br>";
+	str[1]="Further Detail: <a href=\"http://profiles.murdoch.edu.au/myprofile/mohammed-kaosar/\" target=\"_blank\">Murdoch Profile</a>";
+	str[2]="";
+	finalStr=str[0]+str[1]+str[2];;
 	return finalStr;
 }
 function getCVHead_short(){
@@ -12,12 +13,14 @@ function getCVHead_short(){
 	var c=2;
 	str[0]="";//<h3>CURRENT POSITIONS</h3></br>";
 	str[1]="";
-	str[c++]="<b>Senior Lecturer</b> </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp School of Information Technology, Mathematics and Statistics, Murdoch University</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perth, Australia</br>URL: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://profiles.murdoch.edu.au/myprofile/mohammed-kaosar/</br>";
+	str[c++]="<b>Senior Lecturer</b> </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Discipline of Information Technology, Murdoch University</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perth, Australia</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspURL:&nbsp;http://profiles.murdoch.edu.au/myprofile/mohammed-kaosar/</br>";
+	str[c++]="<b>Contact Detail:</b> 180, Forsyth Road, Williams Landing, VIC 3027, Australia</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: mgkr14@gmail.com or mohammed.kaosar@murdoch.edu.au</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mob:+61424838847";
+	
 	//str[c++]="<b>Research Fellow and Online Instructor</b> </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp School of Science, RMIT University</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Melbourne, Australia</br>";	
 	//str[c++]="<b>Lecturer (Casual)</b> </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Victoria Universities, Charles Sturt University, Australia</br>";
 	//str[c++]="<b>Course Designer</b> </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Laureate International Universities, Australia</br>";
 	//str[c++]="<b>Consultant</b> </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Don Computing Melbourne, Australia</br>";
-	str[c++]="<b>Contact Detail:</b> 180, Forsyth Road, Williams Landing, VIC 3027, Australia</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: mgkr14@gmail.com or mohammed.kaosar@rmit.edu.au</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mob:+61424838847";
+	
 	//str[c++]="<b>Assistant Professor</b> </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Department of Computer Science</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Faculty of Engineering, Effat University</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jeddah, KSA</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mailing Address: </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspFlat 11, 60 Epping Rd, Lane Cove NSW 2066, Australia</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: mgkr14@gmail.com, Skype: cybersec.resgroup</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mob:+8801717213628, +61434610979</br><b>Other detail:</b> Country of citizenship - Australia, Date of Birth - 24 Nov 1976</br>";
 	//str[c++]="<b>Assistant Professor</b>, Department of Computer Science</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Faculty of Engineering, Effat University, Jeddah, KSA</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PO Box 34689, Jeddah 21478, Saudi Arabia</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: mgkr14@gmail.com, Mob:+61434610979</br>";
 	
@@ -37,12 +40,12 @@ function getStrength(){
 	var c=0;
 	str[c++]="<h3>STRENGTHS</h3></br>";
 	str[c++]="";
-	str[c++]="Demonstrated teaching experience in many ICT courses in undergraduate and graduate level both in face-to-face and online mode."
+	str[c++]="Demonstrated teaching experience in many ICT courses in undergraduate and postgraduate level both in face-to-face and online mode."
 	//Computer Science and Engineering, especially for courses relating to Cyber Security, Information Security & Privacy, Human Computer Interaction, Database, Programming Languages, Moble Application Development, etc."
-	str[c++]="Demonstrated research strength in various topics in terms of publications, supervising students, conducting research projects and seeking for grants."//information cyber security and privacy, cryptography, wireless ad-hoc network, computer network and data mining."
+	str[c++]="Demonstrated research strength in various topics in terms of publications, supervising students, conducting research projects and grants applications."//information cyber security and privacy, cryptography, wireless ad-hoc network, computer network and data mining."
 	//str[c++]="Demonstrated track record of publications in journals and conferences of international standard."
 	str[c++]="A solid foundation in computer science with strong background in mathematics."
-	str[c++]="Excellent communication skills developed through research and academic experience gained from various universities."
+	str[c++]="Excellent communication skills developed through research, leadership and academic experiences gained from various universities."
 
 		
 	finalStr=str[0]+str[1];
@@ -216,12 +219,33 @@ function getWorkExperience(){
 	}
 	return finalStr;
 }
+function getGrantsDetail(){
+	var finalStr="";
+	var str=[];
+	var c=2;
+	str[0]="<h4>VARIOUS GRANT ACTIVITIES</h4>";
+	str[1]="The list of current and under-review grants are as follows:</br></br>";	
+	
+	str[c++]="Department of Defence Strategic Policy Grants Program 2021, 'CORONA Virus Spread Prediction and Monitoring using Dynamic Graph Link Prediction', 2021-2024, $800,000 [Under-Review] [CI]";
+	str[c++]="Department of Defence - DSC Research Higher Degree Top-Up Grant, 'Cybersecurity and Precision Agriculture', 2021-2022, $15,000 [Under-Review] [CI]";
+	str[c++]="Research Cluster Awards, Zayed University UAE, 'Blockchain-Based Collaborative Intrusion Detection Systems and Trust Management for Industrial IoT', Three years AED 491,000 [Under-Review] [Co-PI]";
+	str[c++]="Interdisciplinary Research Grant 2020- 3rd Cycle Qassim University, Saudi Arabia, 'Developing a smart image-based disease detection system using machine learning techniques for the agricultural plants of Qassim region', 2020-2022 (SR-150,000) [Co-PI]";
+				
+	finalStr=str[0]+str[1];
+	var n=str.length;
+	var i;
+	for(i=2; i<n;i++)
+	{
+		finalStr=finalStr+"<li>"+str[i]+"</li>";
+	}
+	return finalStr;
+}
 
 function getProfessionalAffiliation(){
 	var finalStr="";
 	var str=[];
 	var c=2;
-	str[0]="<h3>PROFESSIONAL AFFILIATIONS AND COMMUNITY ACTIVITIES</h3></br>";
+	str[0]="<h4>SOME RECENT COMMUNITY ACTIVITIES AND PROFESSIONAL AFFILIATIONS</h4>";
 	str[1]="";	
 	str[c++]="Member: IEEE, Australian Computer Society (ACS), European Alliance for Innovation (EAI), The Institute for Computer Sciences, Social Informatics and Telecommunications Engineering (ICST), South Pacific Competitive Programming Association, Industrial Engineering and Operation Management(IEOM)";
 	//str[c++]="Member, Centre for Research in Complex Systems (CRICS), Charles Sturt University, Australia";
@@ -229,7 +253,7 @@ function getProfessionalAffiliation(){
 	//str[c++]="Member, Advanced Network Research Lab (ANRL) Group, Charles Sturt University, Australia";
 	str[c++]="Editorial Board Member: International Journal in Foundations of Computer Science and Technology (IJFCST)";
 	str[c++]="Program Committee: AIACT 2021 Shanghai China, Learning and Teaching Conference, Effat University, 2015-2019; International Workshop on Applications and Techniques in Information Security (ATIS), 2013";
-	str[c++]="Reviewer: ATIS2013, NSS2013, SCI 2005, SCI 2006, Journal of KSU-CIS, Journal of Biomedical Informatics, Journal of Computers (JCP) etc.";
+	str[c++]="Reviewer: Journal of Multimedia Systems, ATIS2013, NSS2013, SCI 2005, SCI 2006, Journal of KSU-CIS, Journal of Biomedical Informatics, Journal of Computers (JCP) etc.";
 	str[c++]="Organizer:  Effat L&T Conference (2015-2019), Various ACM-Compliant programming contests including She-Codes-2019 in KSA";	
 			
 	finalStr=str[0]+str[1];
@@ -354,7 +378,7 @@ function getTeachingActivities(){
 	var finalStr="";
 	var str=[];
 	str[0]="<h3>TEACHING EXPERIENCE</h3></br>";
-	str[1]="I have taught and coordinated more than 15 different courses face-to-face and online in several universities for more than 9 years. The average teaching evaluation I received is above 85% wherever applicable. A short list of courses includes but not limited to as follows:";
+	str[1]="I have taught and coordinated more than 15 different courses face-to-face and online in several universities for more than 9 years both in undergraduate and postgraduate level. The average teaching evaluation I received is above 85% wherever applicable. A short list of courses includes but not limited to as follows:";
 	var c=2;
 	
 	//str[c++]="<u>Queen's University</u>, Bangladesh [2002-2004 part-time]: Prolog, Digital Logic Design";
@@ -383,13 +407,15 @@ function getTeachingInterests(){
 	var str=[];
 	var c=2;
 	str[0]="<h3>TEACHING PREFERENCE</h3></br>";
-	str[1]="I have taught number of courses in several universities. I can teach any Computer Science related courses. My teaching preference includes but not limited to:";
-	str[c++]="Web Application Design";
-	str[c++]="Mobile Application Design";
-	str[c++]="Programming Languages";
-	str[c++]="Data Structure";
-	str[c++]="Algoruthm Analysis and Design";
+	str[1]="I have coordinated and taught number of courses in several universities. I can teach any Computer Science related courses. My teaching preference includes but not limited to:";
 	str[c++]="Information Security, Cryptography";
+	str[c++]="Programming Languages (C/C++, Java, Python)";
+	str[c++]="Internet of Things (IoT)";
+	str[c++]="Database";
+	str[c++]="Web Application Design";
+	str[c++]="Mobile Application Design";	
+	str[c++]="Data Structure";
+	str[c++]="Algoruthm Analysis and Design";	
 	str[c++]="Cloud Computing";
 	
 
@@ -407,20 +433,19 @@ function getCurrentResearch(){
 	var str=[];
 	var c=2;
 	str[0]="<h3>CURRENT RESEARCH</h3></br>";
-	str[1]="Some of my current research projects and topics include but not limited to:";
-	str[c++]="Web Application Design";
-	str[c++]="Mobile Application Design";
-	str[c++]="Programming Languages";
-	str[c++]="Data Structure";
-	str[c++]="Algoruthm Analysis and Design";
-	str[c++]="Information Security, Cryptography";
+	str[1]="Some of my current research projects fall under areas:";
+	str[c++]="Cybersecurity";
+	str[c++]="Information Security, Privacy and Cryptography";
+	str[c++]="Internet of Things (IoT)";
+	str[c++]="Precision Agriculture";
+	str[c++]="Machine Learning";		
 	str[c++]="Cloud Computing";
 	
 
 	finalStr=str[0]+str[1];
 	var n=str.length;
 	var i;
-	for(i=n-1; i>=2;i--)
+	for(i=2; i<n;i++)
 	{
 		finalStr=finalStr+"<li style=\"margin-left:20px; \">"+str[i]+"</li>";
 	}
@@ -451,7 +476,7 @@ function getResearchCurrent(){
 function getResearchActivities(){
 	var finalStr="";
 	var str=[];
-	str[0]="<p>Some of the projects I have worked include but not limited to:</p>";
+	str[0]="<h4>SOME RECENT PROJECTS</h4>";
 	str[1]="";
 	var c=2;
 	//str[c++]="<b>Project Title:</b> Airline Reservation System (2007, Role - Programmer)</br><li>Synopsis: Facilitates passengers to make reservation through mobile or pocket PC regardless of their locations. Two ends were involved in this system. The mobile end was developed using J2ME and the gateway and the server end were developed using Java and Oracle</li><li>Organization: Research Institute, King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia</li>";
@@ -648,12 +673,8 @@ function getCommunityServices(){
 	var str=[];
 	var c=2;
 	str[0]="<h3>Some recent community services include but not limited to</h3></br>";
-	str[1]="Fall 2018";
-	
-	str[c++]="Coach for the programmng contestant teams for 3rd NC3 Programing Competition in King Khaled University, Abha, KSA on 8-9 October 2018.";
-	str[c++]="Supervising students in visit to IT department of Saudi Electricity Company on 15 October 2018.";
-	str[c++]="Coach for the programmng contestant teams for IEEE Extreme programming competition 2018 on 20 October 2018.";
-
+	str[1]="Professioinal Membership";
+	str[c++]="IEEE Member";
 	
 	finalStr=str[0]+str[1];
 	var n=str.length;
@@ -662,5 +683,16 @@ function getCommunityServices(){
 	{
 		finalStr=finalStr+"<li style=\"margin-left:20px; \">"+str[i]+"</li>";
 	}
+	finalStr=finalStr+"Journal Editorial and Review";
+	l=c
+	str[c++]="Coach for the programmng contestant teams for 3rd NC3 Programing Competition in King Khaled University, Abha, KSA on 8-9 October 2018.";
+	str[c++]="Supervising students in visit to IT department of Saudi Electricity Company on 15 October 2018.";
+	str[c++]="Coach for the programmng contestant teams for IEEE Extreme programming competition 2018 on 20 October 2018.";	
+	
+	for(i=l; i<str.length;i++)
+	{
+		finalStr=finalStr+"<li style=\"margin-left:20px; \">"+str[i]+"</li>";
+	}
+	
 	return finalStr;
 }

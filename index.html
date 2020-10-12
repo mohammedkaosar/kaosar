@@ -38,7 +38,9 @@
 				document.getElementById("main").innerHTML+="</br>"+getConferencePapers();
 			}
 			if(x===13)//Community Services
-				document.getElementById("main").innerHTML=getCommunityServices();
+				document.getElementById("main").innerHTML=getProfessionalAffiliation();
+			if(x===14)//Community Services
+				document.getElementById("main").innerHTML=getGrantsDetail();
 		}
 		</script>
 	</head>
@@ -70,6 +72,7 @@
 					<a href="javascript:void(0)" class="dropbtn">Research</a>
 					<div class="dropdown-content">					  
 					  <a href="#" onclick="menuSelection(2)">Research Interests</a>
+					  <a href="#" onclick="menuSelection(14)">Research Grants</a>
 					  <a href="#" onclick="menuSelection(6)">Current Research</a>
 					  <a href="#" onclick="menuSelection(5)">Past Research Projects</a>					  
 					</div>
@@ -89,14 +92,14 @@
 					<a href="javascript:void(0)" class="dropbtn">CVs</a>
 					<div class="dropdown-content">
 					  <a href="#" onclick="window.location.href='cv.html'" target="_blank">Short CV</a>
-					  <a href="#">Full CV</a>		
+					  
 					  			  
 					</div>
 				</li>
 				<li class="dropdown">
 					<a href="javascript:void(0)" class="dropbtn">Others</a>
 					<div class="dropdown-content">
-					  <a href="#" onclick="menuSelection(13)">Community Services</a>				  
+					  <a href="#" onclick="menuSelection(13)">Professional and Community Services</a>				  
 					  			  
 					</div>
 				</li>
@@ -125,7 +128,7 @@
 				</div>
 			</div>
 			<div id="footer">
-				Copyright &copy 2017 Kaosar
+				Copyright &copy 2020 Kaosar
 			</div>
 		</div>
 	</body>
