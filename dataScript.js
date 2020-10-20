@@ -521,12 +521,15 @@ function getJournalPapers(){
 	str[c++]="H.Sharif, K. Haroon, Z. Paracha, M. Kaosar, H. Javed, \"Identification of Low Frequency Oscillation Disturbance with the Help of Phasor Measurement Unit\", Journal of Solid State Technology, Vol.63, No.1, 2020";	
 	str[c++]="M. Kaosar, X. Yi, \"Privacy Preserving Participatory Sensor Network on Named Data Networking Infrastructure\", International Journal of Wireless & Mobile Networks (IJWMN), Vol. 12, No. 1, Pages 1-12 January 2020";
 	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"A review on various Smart Grid Technologies used in Power System\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
-	str[c++]="M. Magomelo, M. Kaosar, \"An Exploratory Model to Empirically Test the Impact of Organisational Values and Culture on Information Security\", Journal of Human-Computer Interaction, 2020, [Submitted]";	
+	//str[c++]="M. Magomelo, M. Kaosar, \"An Exploratory Model to Empirically Test the Impact of Organisational Values and Culture on Information Security\", Journal of Human-Computer Interaction, 2020, [Submitted]";	
 	str[c++]="K. M. Haroon, H. Sharif, M. Kaosar, H. Javed, \"A Review on Different Algorithms and Methods used for Neural Spike Detection\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
 	str[c++]="M. Qiangqiang, N. Hasan, M. Rahman,R. Roslynna,N. Saeid, M. Kaosar, M. Mohiuddin, \"Relationship between GSD and porosity\", Journal of Granular Computing, 2020,[Submitted]";
-	str[c++]="M. Patwary, M. Kaosar, \"Predicting COVID-19 affected people and area using dynamic graph link prediction\", Journal of Human-Computer Interaction, 2020, [Submitted]";
+	//str[c++]="M. Patwary, M. Kaosar, \"Predicting COVID-19 affected people and area using dynamic graph link prediction\", Journal of Human-Computer Interaction, 2020, [Submitted]";
 	str[c++]="H. Sharif, A. T. Oo, K. M. Haroon, M. Kaosar, \"Protection of Interconnected Transmission Network using Phasor Measurement Unit Scheme\", International Research Journal of Engineering and Technology (IRJET), Vol. 07, Issue 08, Aug 2020";
-	str[c++]="S. Hossain, M. Kaosar, \"Intellectual Capital Theft in Precision Agriculture: Challenges and a Solution\", Journal of Human-Computer Interaction, 2020,[Submitted]";
+	//str[c++]="S. Hossain, M. Kaosar, \"Intellectual Capital Theft in Precision Agriculture: Challenges and a Solution\", Journal of Human-Computer Interaction, 2020,[Submitted]";
+	str[c++]="M. Billah, M. Kaosar, \"DeepSigma70: Bacterial Sigma 70 Promoter Identification Using Deep Convolutional Neural Network\", Journal of Multimedia Systems, 2020,[Submitted]";
+	str[c++]="K. M. Haroon, M. Kaosar, \"Comparative Analysis of Different Neural Spike Sorting Algorithms Used for Overlapping Spikes\",  Journal of Multimedia Systems, 2020,[Submitted]";
+	str[c++]="A. Rahman, M. Kaosar, \"A Collaborative Study on Industry 4.0 and 5G through Software Defined Networking-based Security\", Journal of Manufacturing Letters, 2020,[Submitted]";
 	
 			
 	finalStr=str[0]+str[1];
